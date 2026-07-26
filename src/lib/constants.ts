@@ -9,6 +9,7 @@ export const SOCIAL_LINKS = {
   twitter: "https://x.com/GDGC_Chandigarh",
   instagram: "https://www.instagram.com/gdgc_chandigarh",
   youtube: "https://youtube.com/@gdgcloudchd",
+  github: "https://github.com/GDG-cloud-chandigarh",
   whatsapp: "https://chat.whatsapp.com/PLACEHOLDER",
 };
 
@@ -21,4 +22,4 @@ export const SPONSOR_FORM_URL = "https://forms.gle/PLACEHOLDER-sponsor";
 export const NEWSLETTER_FORM_URL = "https://forms.gle/PLACEHOLDER-newsletter";
 export const CONTACT_FORM_URL = "https://forms.gle/PLACEHOLDER-contact";
 export const CONTACT_EMAIL = "gdgcloudchandigarh@gmail.com";
-export const MAP_EMBED_URL = "https://www.google.com/maps/embed?pb=PLACEHOLDER-chandigarh";
+export const MAP_EMBED_URL = "https://maps.google.com/maps?q=Chandigarh,India&z=12&output=embed";

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Linkedin, Twitter, Instagram, Youtube, Mail } from "lucide-react";
+import { Mail } from "lucide-react";
 import { buildMetadata } from "@/lib/seo";
 import { GlowButton } from "@/components/GlowButton";
-import { CONTACT_FORM_URL, CONTACT_EMAIL, MAP_EMBED_URL, SOCIAL_LINKS } from "@/lib/constants";
+import { VOLUNTEER_FORM_URL, CONTACT_EMAIL, MAP_EMBED_URL } from "@/lib/constants";
 
 export const metadata: Metadata = buildMetadata({
   title: "Contact",
@@ -19,7 +19,7 @@ export default function ContactPage() {
       </p>
 
       <div className="mt-8 flex flex-wrap gap-4">
-        <GlowButton href={CONTACT_FORM_URL}>Fill out our contact form</GlowButton>
+        <GlowButton href={VOLUNTEER_FORM_URL}>Sign up to volunteer</GlowButton>
         <a
           href={`mailto:${CONTACT_EMAIL}`}
           className="flex items-center gap-2 rounded-full border border-neutral-light px-6 py-3 text-sm font-semibold text-neutral-dark hover:border-google-blue hover:text-google-blue"
@@ -38,23 +38,6 @@ export default function ContactPage() {
         />
       </section>
 
-      <section className="mt-12">
-        <h2 className="font-heading text-2xl font-bold">Follow us</h2>
-        <div className="mt-4 flex gap-4">
-          <a href={SOCIAL_LINKS.linkedin} aria-label="LinkedIn" className="text-neutral-dark hover:text-google-blue">
-            <Linkedin className="h-6 w-6" />
-          </a>
-          <a href={SOCIAL_LINKS.twitter} aria-label="X (Twitter)" className="text-neutral-dark hover:text-google-blue">
-            <Twitter className="h-6 w-6" />
-          </a>
-          <a href={SOCIAL_LINKS.instagram} aria-label="Instagram" className="text-neutral-dark hover:text-google-blue">
-            <Instagram className="h-6 w-6" />
-          </a>
-          <a href={SOCIAL_LINKS.youtube} aria-label="YouTube" className="text-neutral-dark hover:text-google-blue">
-            <Youtube className="h-6 w-6" />
-          </a>
-        </div>
-      </section>
     </div>
   );
 }

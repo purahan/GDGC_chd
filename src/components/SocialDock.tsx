@@ -1,4 +1,4 @@
-import { Linkedin, Twitter, Instagram, Mail } from "lucide-react";
+import { Linkedin, Twitter, Instagram, Github, Mail } from "lucide-react";
 import { GlassEffect, GlassFilter } from "@/components/ui/liquid-glass";
 import { SOCIAL_LINKS, CONTACT_EMAIL } from "@/lib/constants";
 
@@ -6,6 +6,7 @@ const SOCIALS = [
   { href: SOCIAL_LINKS.linkedin, label: "LinkedIn", Icon: Linkedin, hover: "group-hover:text-[#0A66C2]" },
   { href: SOCIAL_LINKS.twitter, label: "X (Twitter)", Icon: Twitter, hover: "group-hover:text-black" },
   { href: SOCIAL_LINKS.instagram, label: "Instagram", Icon: Instagram, hover: "group-hover:text-[#E4405F]" },
+  { href: SOCIAL_LINKS.github, label: "GitHub", Icon: Github, hover: "group-hover:text-black" },
   { href: `mailto:${CONTACT_EMAIL}`, label: "Email", Icon: Mail, hover: "group-hover:text-google-red" },
 ];
 
