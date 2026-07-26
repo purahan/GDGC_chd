@@ -31,6 +31,12 @@ export default function EventsPage() {
             link: "https://gdg.community.dev/events/details/google-gdg-cloud-chandigarh-presents-cloud-community-days-chandigarh-1/",
           },
           {
+            src: "/images/how_I_fix_it.webp",
+            alt: "How I Fixed It",
+            description: "A community showcase of debugging stories — the bugs, blunders, and brilliant fixes behind the code.",
+            link: "https://gdg.community.dev/events/details/google-gdg-cloud-chandigarh-presents-how-i-fixed-it/",
+          },
+          {
             src: "/images/build_with_ai_2024.webp",
             alt: "Build with AI 2024",
             description: "Exploring generative AI and building with Google's AI tools.",
