@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { headingFont, bodyFont, monoFont } from "@/lib/fonts";
 import { Navbar } from "@/components/Navbar";
 import { ConditionalFooter } from "@/components/ConditionalFooter";
@@ -34,6 +35,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <ConditionalFooter />
         <SocialDock />
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
