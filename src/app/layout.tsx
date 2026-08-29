@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/next";
 import { headingFont, bodyFont, monoFont } from "@/lib/fonts";
 import { Navbar } from "@/components/Navbar";
 import { ConditionalFooter } from "@/components/ConditionalFooter";
@@ -32,6 +33,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main className="flex-1">{children}</main>
         <ConditionalFooter />
         <SocialDock />
+        <Analytics />
       </body>
     </html>
   );
