@@ -14,6 +14,12 @@ export default function EventsPage() {
       <DomeGallery
         images={[
           {
+            src: "/images/review_ai_content_2026.webp",
+            alt: "Review AI-Generated Content",
+            description: "Being the human quality gate on AI-assisted work — catching hallucinations, verifying facts, and auditing tone.",
+            // TODO: paste the gdg.community.dev RSVP link for this event
+          },
+          {
             src: "/images/build_with_ai_2026.jpg",
             alt: "Build with AI 2026",
             description: "Hands-on sessions building with Google's generative AI tooling.",
