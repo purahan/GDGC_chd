@@ -12,6 +12,7 @@ export const metadata: Metadata = buildMetadata({
 });
 
 const TIMELINE = [
+  { date: "Aug 29, 2026", title: "Review AI-Generated Content", description: "Being the human quality gate on AI-assisted work — catching hallucinations, verifying facts, and auditing tone before you hit publish." },
   { date: "Jul 11, 2026", title: "How I Fixed It", description: "Developers swap real debugging war stories and the fixes that finally cracked them." },
   { date: "Mar 10, 2026", title: "Agentic AI Bootcamp: Building Autonomous & Intelligent Systems", description: "A hands-on bootcamp on building autonomous, tool-using AI agents and intelligent systems." },
   { date: "Aug 30, 2025", title: "Cloud Community Days - Chandigarh", description: "Our full-day community conference across Google Cloud, AI, and modern app development." },
